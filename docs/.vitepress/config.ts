@@ -6,8 +6,9 @@ export default defineConfig({
   description: '课程资料、学习笔记、实验报告与项目整理',
   cleanUrls: true,
   lastUpdated: true,
+  base: '/syw-study-site/',
   themeConfig: {
-    logo: { src: '/logo.svg', alt: 'SYW Study Site' },
+    logo: { src: '/syw-study-site/logo.svg', alt: 'SYW Study Site' },
     siteTitle: '苏易文的学习站',
     nav: [
       { text: '首页', link: '/' },
@@ -28,6 +29,7 @@ export default defineConfig({
             { text: 'Python', link: '/courses/python' },
             { text: 'Medical AI', link: '/courses/medical-ai' },
             { text: 'TOEFL Reading', link: '/courses/toefl-reading' },
+            { text: 'TOEFL Reading · Lecture 2', link: '/courses/toefl-reading/lec2' },
             { text: '新型功能玻璃', link: '/courses/functional-glass' },
             { text: '毛概', link: '/courses/mao-gai' }
           ]
