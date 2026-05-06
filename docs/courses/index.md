@@ -4,7 +4,9 @@
 
 <div class="course-card-stack">
   <a class="course-card course-card--blue" href="./computer-architecture">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -24,7 +26,9 @@
   </a>
 
   <a class="course-card course-card--green" href="./database">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -44,7 +48,9 @@
   </a>
 
   <a class="course-card course-card--amber" href="./oop">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -64,7 +70,9 @@
   </a>
 
   <a class="course-card course-card--violet" href="./python">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -84,7 +92,9 @@
   </a>
 
   <a class="course-card course-card--rose" href="./medical-ai">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -104,7 +114,9 @@
   </a>
 
   <a class="course-card course-card--cyan" href="./toefl-reading">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -124,7 +136,9 @@
   </a>
 
   <a class="course-card course-card--slate" href="./functional-glass">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
@@ -144,7 +158,9 @@
   </a>
 
   <a class="course-card course-card--ink" href="./mao-gai">
+    <div class="course-card__halo"></div>
     <div class="course-card__glow"></div>
+    <div class="course-card__orbit"></div>
     <div class="course-card__sheen"></div>
     <div class="course-card__content">
       <div class="course-card__main">
