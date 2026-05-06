@@ -4,7 +4,10 @@ layout: home
 hero:
   name: "苏易文的学习站"
   text: "课程资料、笔记、报告与项目整理"
-  tagline: "按课程归档，持续更新。这个网站更像一个干净、长期维护的学习档案站，而不是一次性的展示页。"
+  tagline: "一个按课程归档、可持续增长的个人学习档案站。它更重视清楚的结构、真实的内容和自然的阅读体验。"
+  image:
+    src: /logo.svg
+    alt: site logo
   actions:
     - theme: brand
       text: 查看课程
@@ -12,31 +15,43 @@ hero:
     - theme: alt
       text: 查看项目 / 作业
       link: /projects/
+    - theme: alt
+      text: 了解网站结构
+      link: /about/
 
 features:
-  - title: 课程归档
-    details: 以课程为主线整理资料，每门课保留统一结构，方便持续新增内容。
-  - title: 文件驱动
-    details: 网站面向 Markdown、PDF、PPT、代码、仓库、实验报告等真实学习材料设计。
-  - title: 简洁可维护
-    details: 优先保证结构稳定、阅读舒适和长期扩展性，不做花哨但难维护的设计。
+  - title: 按课程归档
+    details: 每门课程使用统一结构，后续无论新增实验、笔记、报告还是项目，都能自然接入。
+  - title: 面向真实文件
+    details: 网站为 Markdown、PDF、PPT、代码、仓库与实验报告而设计，不强迫把所有内容改写成博客文章。
+  - title: 轻量但可扩展
+    details: 第一版先把结构搭稳，之后可以逐步接入自动索引、精选内容和公开展示页。
 ---
 
-## 这个网站会包含什么
+<div class="home-panels">
+  <div class="panel panel-soft">
+    <span class="panel-kicker">网站定位</span>
+    <h2>不是一次性展示页，而是长期维护的学习资料站</h2>
+    <p>
+      这个网站的目标不是堆砌装饰，而是把课程资料、项目作业、实验报告和学习记录组织成一个清楚、稳定、可以持续扩展的结构。
+    </p>
+  </div>
 
-- 各门课程的资料索引
-- 笔记、实验报告、心得与复习材料
-- 课程项目、作业与展示内容
-- 后续持续新增的学习记录
-
-## 当前版本说明
-
-这是第一版框架站点。
-
-目前只完成：
-- 页面结构
-- 栏目设计
-- 占位说明文案
-- 可扩展的信息架构
-
-暂时**不会导入你的真实课程文件**，也**不会移动或删除你现有任何资料**。
+  <div class="panel-grid">
+    <div class="panel">
+      <span class="panel-kicker">内容来源</span>
+      <h3>以已有文件为主</h3>
+      <p>后续内容主要来自你已经整理好的本地资料，例如 Markdown、PDF、PPT、代码目录、仓库与实验报告。</p>
+    </div>
+    <div class="panel">
+      <span class="panel-kicker">更新方式</span>
+      <h3>为持续增加内容预留空间</h3>
+      <p>结构不会默认“内容已经定型”。课程页、项目页和资料聚合页都会保持可持续新增的组织方式。</p>
+    </div>
+    <div class="panel">
+      <span class="panel-kicker">当前阶段</span>
+      <h3>先搭框架，不导入真实文件</h3>
+      <p>这一版只建立页面结构、导航、占位文案与视觉风格，不会移动、删除或改写你现有的课程资料。</p>
+    </div>
+  </div>
+</div>

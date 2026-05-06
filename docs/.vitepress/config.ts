@@ -5,7 +5,9 @@ export default defineConfig({
   title: '苏易文的学习站',
   description: '课程资料、学习笔记、实验报告与项目整理',
   cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
+    logo: { src: '/logo.svg', alt: 'SYW Study Site' },
     siteTitle: '苏易文的学习站',
     nav: [
       { text: '首页', link: '/' },
@@ -34,17 +36,13 @@ export default defineConfig({
       '/projects/': [
         {
           text: '项目与作业',
-          items: [
-            { text: '总览', link: '/projects/' }
-          ]
+          items: [{ text: '总览', link: '/projects/' }]
         }
       ],
       '/notes/': [
         {
           text: '笔记与报告',
-          items: [
-            { text: '总览', link: '/notes/' }
-          ]
+          items: [{ text: '总览', link: '/notes/' }]
         }
       ]
     },
@@ -57,6 +55,11 @@ export default defineConfig({
     },
     search: {
       provider: 'local'
+    },
+    outline: [2, 3],
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     }
   }
 })
